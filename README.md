@@ -23,6 +23,7 @@ We follow [GitHub Flow](https://guides.github.com/introduction/flow/), while exp
 * [Branches](branches.md)
 * [Commits](commits.md)
 * [Issues](issues.md)
+* [Milestones](milestones.md)
 * [Pull requests](pull-requests.md)
 * [Repositories](repositories.md)
 
