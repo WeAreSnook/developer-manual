@@ -17,11 +17,11 @@ We use [Heroku](https://heroku.com) for our hosting infrastructure, unless our p
 
 ## Heroku pipelines
 
-Heroku features the concept of [pipelines](https://devcenter.heroku.com/articles/pipelines).
+Heroku uses the concept of [pipelines](https://devcenter.heroku.com/articles/pipelines) to organise deployments.
 
 > A pipeline is a group of Heroku apps that share the same codebase. Each app in a pipeline represents one of the following stages in a continuous delivery workflow.
 
-All projects should minimally have the following environments configured:
+All Snook projects should minimally have the following environments configured:
 
 - Review apps
 - Staging
@@ -29,6 +29,12 @@ All projects should minimally have the following environments configured:
 
 ### Review apps
 
+With a pipeline configured, Heroku creates a **Review app** each time you create a [pull request](pull-request.md). This helps catch projects that won't build early and creates an environment allowing code reviewers to preview the changes.
+
 ### Staging
 
+When your pull request is approved and merged into `main`, Heroku will build your app in the staging environment.
+
 ### Production
+
+Finally once everyone is happy with the changes you can manually promote the app from staging to production in the Heroku dashboard.
