@@ -63,15 +63,34 @@ _Here we'll put required and recommended VSCode plugins_
 
 ## Background reading
 
-We have put together a bit of a reading list to help people orient themselves.
+We have put together a reading list to help people orient themselves in the team.
+
+### Our principles
+
+As a team we have three core principles that guide our daily actions:
+
+#### 1.Universal access
+
+— We design and build technology that everyone can use.
+— We care deeply about accessibility and equality of access.
+
+#### 2.Delightfully useful
+
+— Our work is useful, usable and aligned to user goals.
+— Beyond utility, we build things that bring delight into people's lives and help them thrive.
+
+#### 3. Radically adaptive
+
+— We respond quickly to people’s emerging needs and a world in flux.
+— We choose tools and methods to design and build technology for change.
 
 ### How we work
 
 - Our delivery process aligns closely with the GDS [Digital Service standard](https://www.gov.uk/service-manual/service-standard).
-- We build software that conforms to the principles of [12 Factor Apps](https://12factor.net/). This helps us build secure and sc
-- We align the team around the [values](https://www.agilealliance.org/agile101/the-agile-manifesto/) and [principles](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/) of the Agile manifesto over a tribe of Agile like Scrum or XP. Learn more about our approach to [Agile](agile/)
-- Team orientation
+- We create software that conforms to the principles of [12 Factor Apps](https://12factor.net/).
+- We align the team around the [values](https://www.agilealliance.org/agile101/the-agile-manifesto/) and [principles](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/) of the Agile manifesto over a tribe of Agile like Scrum or XP. There is also [a helpful video](https://www.youtube.com/watch?v=LMnozmayNJQ) that covers the 12 principles of Agile if you find that easier. **Learn more about our approach to [Agile](agile/)**.
 
 ### Technology
 
-- [TDD](#) - How we approach test driven development
+- [TDD](https://github.com/WeAreSnook/developer-manual/issues/9) - How we approach test driven development
+- [Managing secrets](https://github.com/WeAreSnook/developer-manual/issues/10) - How we keep secrets....well secret 🗝
