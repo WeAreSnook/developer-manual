@@ -1,8 +1,6 @@
 # Onboarding checklist
 
-We want to make it easy for new developers to join Snook.
-
-Whether people are just collaborating on one project or joining the team full-time, people should feel:
+We want to make it easy for new developers to join Snook. Whether people are just collaborating on one project or joining the team full-time, people should feel:
 
 - **included**
 - **involved**
@@ -10,27 +8,36 @@ Whether people are just collaborating on one project or joining the team full-ti
 
 We've put together this onboarding checklist for people responsible for onboarding a new team member. It is likely to be incomplete or out of date.
 
-If you think of a way it could be improved, create an issue in the [Developer Manual](https://github.com/WeAreSnook/developer-manual/issues) or even better suggest the change through a [pull request](pull-requests.md)
+If you think of a way it could be improved, create an issue in the [Developer Manual](https://github.com/WeAreSnook/developer-manual) or even better suggest the change through a [pull request](pull-requests.md).
 
 ## When a developer joins Snook
 
 ### If they are a contractor
 
-- [ ] Add them to the Github project they are working on. Associate and mid-level developers should be added as `members`. Senior and principal developers should be added as `owners`.
-- [ ] Add them to Heroku. Associate and mid-level developers should be added as `members`. Senior and principal developers should be added as `admin`.
+- [ ] **Add them to the [Github](https://github.com/WeAreSnook) project they are working on**. Associate and mid-level developers should be added as `members`. Senior and principal developers should be added as `owners`.
+- [ ] **Add them to [Heroku](https://dashboard.heroku.com/teams/snook/access)**. Associate and mid-level developers should be added as `members`. Senior and principal developers should be added as `admin`.
+- [ ] **Help them to login with Github to set up a [CircleCI](https://circleci.com/vcs-authorize/) account**. They will need to grant access to the WeAreSnook organisation on Github to see pipelines.
 - [ ] Help them [setup their laptop](#laptop-setup)
-- [ ] Add them to Slack channels they need access to
+- [ ] Talk to the ops team to give them access to relevant Slack channels.
 - [ ] Give them a warm intro on Slack
 - [ ] Add them to any important calendar invitations e.g. standups etc.
 
 ### If they are a permanent team member
 
-- [ ] Add them to Github. Associate and mid-level developers should be added as `members`. Senior and principal developers should be added as `owners`.
-- [ ] Add them to Heroku. Associate and mid-level developers should be added as `members`. Senior and principal developers should be added as `admin`.
-- [ ] Help them setup their laptop
-- [ ] Add them to Slack
-- [ ] Introduce them on Slack
-- [ ] Add them to any important calendar invitations e.g. standups etc.
+Snook's Ops teams take care of new team members' company onboarding. This includes things like:
+
+- setting up an email account
+- adding them to Slack
+- granting them file access
+- orienting them in the company
+
+Alongside their company onboarding, it's important that people have a clear onboarding to the team.
+
+- [ ] **Add or invite them to the [wearesnook](https://github.com/orgs/WeAreSnook/people) Github organisation**. Associate and mid-level developers should be added as `members`. Senior and principal developers should be added as `owners`.
+- [ ] **Add them to [Heroku](https://dashboard.heroku.com/teams/snook/access)**. Associate and mid-level developers should be added as `members`. Senior and principal developers should be added as `admin`.
+- [ ] **Help them to login with Github to set up a [CircleCI](https://circleci.com/vcs-authorize/) account**. You will need to grant access to the WeAreSnook organisation on Github to see pipelines.
+- [ ] Help them [setup their laptop](#laptop-setup)
+- [ ] Invite them to any important calendar invitations e.g. standups, team calls etc.
 
 ## Laptop setup
 
@@ -46,7 +53,7 @@ These are some of the tools we install to set up our laptops for development.
 - [ ] **[NVM](https://github.com/nvm-sh/nvm)** - Managing Node versions
 - [ ] **[Yarn](https://yarnpkg.com/)** - JavaScript dependency management. Rails is set up to use yarn.
 - [ ] **[VSCode](https://code.visualstudio.com/)** - Text editing
-- [ ] **[Postman](https://www.postman.com/)** - Manual testing of APIs and web services
+- [ ] **[Postman](https://www.postman.com/)** - For documentation and testing of APIs and web services
 
 Longer term, we want to automate set up of new laptops inspired by Thoughtbot's [laptop script](https://github.com/thoughtbot/laptop).
 
@@ -61,6 +68,10 @@ We have put together a bit of a reading list to help people orient themselves.
 ### How we work
 
 - Our delivery process aligns closely with the GDS [Digital Service standard](https://www.gov.uk/service-manual/service-standard).
-- [12 Factor Apps]()
-- Agile manifesto
+- We build software that conforms to the principles of [12 Factor Apps](https://12factor.net/). This helps us build secure and sc
+- We align the team around the [values](https://www.agilealliance.org/agile101/the-agile-manifesto/) and [principles](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/) of the Agile manifesto over a tribe of Agile like Scrum or XP. Learn more about our approach to [Agile](agile/)
 - Team orientation
+
+### Technology
+
+- [TDD](#) - How we approach test driven development
