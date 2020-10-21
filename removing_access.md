@@ -2,9 +2,9 @@
 
 When someone leaves the team, we remove their access to the tools we use so that:
 
-* they can't pose a security risk
-* they aren't exposed to the risk of seeing something they shouldn't
-* we aren't unnecessarily billed
+- they can't pose a security risk
+- they aren't exposed to the risk of seeing something they shouldn't
+- we aren't unnecessarily billed
 
 We do this the day of or the day after someone leaves.
 
