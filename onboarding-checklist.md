@@ -67,22 +67,22 @@ We have put together a reading list to help people orient themselves in the team
 
 ### Our principles
 
-As a team we have three core principles that guide our daily actions:
+As a team we have three core principles that guide our daily behaviours and actions:
 
 #### 1.Universal access
 
-— We design and build technology that everyone can use.
-— We care deeply about accessibility and equality of access.
+- We design and build technology that everyone can use.
+- We care deeply about accessibility and equality of access.
 
 #### 2.Delightfully useful
 
-— Our work is useful, usable and aligned to user goals.
-— Beyond utility, we build things that bring delight into people's lives and help them thrive.
+- Our work is useful, usable and aligned to user goals.
+- Beyond utility, we build things that bring delight into people's lives and help them thrive.
 
 #### 3. Radically adaptive
 
-— We respond quickly to people’s emerging needs and a world in flux.
-— We choose tools and methods to design and build technology for change.
+- We respond quickly to people’s emerging needs and a world in flux.
+- We choose tools and methods to design and build technology for change.
 
 ### How we work
 
