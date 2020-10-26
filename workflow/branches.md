@@ -1,5 +1,15 @@
 # Branches
 
+## Use main as your base branch
+
+As the Internet Engineering Task Force (IETF) outline, master-slave naming conventions are outdated and oppressive language.
+
+When you create repositories from Snook's Github UI, the base branch will default to `main`. However when you you create a new git repo locally, git (usually) defaults to naming the main branch as `master`.
+
+> Run `git config --global init.defaultBranch main` to always set your base git branch to main.
+
+## How to work with branches
+
 Branches are _yours_. You can do what you like to them – including [force pushing](https://git-scm.com/docs/git-push#git-push---force-with-leaseltrefnamegt) unless you've agreed with someone else that you won't.
 
 This makes it easy to help your fellow developers by [rewriting](http://git-scm.com/book/en/Git-Tools-Rewriting-History) your commits regularly so that they make logical sense. You can use `git rebase --interactive` to do this.
