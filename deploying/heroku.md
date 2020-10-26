@@ -10,6 +10,7 @@ We use [Heroku](https://heroku.com) for our hosting infrastructure, unless our p
 
 ## When we might not use Heroku?
 
+- When the project only needs a static site, for that we use Netlify.
 - The project needs to be deployed on premises.
 - The client wants it hosted on their infrastructure e.g. AWS, Google Cloud Platform.
 - There are certain security requirements that can't be met by Heroku.
