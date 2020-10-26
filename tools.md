@@ -72,4 +72,4 @@ _@TODO: Insert Rails App Template here_
 
 [Yarn](https://yarnpkg.com/en/)
 
-> For managing JavaScript dependencies.
+> We use `yarn` NOT `npm` for managing JavaScript dependencies.

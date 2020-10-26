@@ -2,15 +2,15 @@
 
 We use [agile](https://en.wikipedia.org/wiki/Agile_software_development) tools and techniques to:
 
-* self-organise and plan
-* communicate (within the team and with the rest of the organisation)
-* continuously improve the way we work
+- self-organise and plan
+- communicate (within the team and with the rest of the organisation)
+- continuously improve the way we work
 
 We follow a loose gathering of agile processes:
 
-* [standups](standup.md)
-* [retrospectives](retrospective.md)
-* [show and tells](show_and_tell.md)
+- [standups](agile/standup.md)
+- [retrospectives](agile/retrospective.md)
+- [show and tells](agile/show_and_tell.md)
 
 We can and should change any aspect of these lightweight processes through retrospectives.
 
@@ -20,19 +20,19 @@ We use [GitHub](https://github.com/) to collaborate when writing code that can b
 
 We follow [GitHub Flow](https://guides.github.com/introduction/flow/), while expanding on:
 
-* [Branches](branches.md)
-* [Commits](commits.md)
-* [Issues](issues.md)
-* [Milestones](milestones.md)
-* [Pull requests](pull-requests.md)
-* [Repositories](repositories.md)
+- [Branches](workflow/branches.md)
+- [Commits](workflow/commits.md)
+- [Issues](workflow/issues.md)
+- [Milestones](workflow/milestones.md)
+- [Pull requests](workflow/pull-requests.md)
+- [Repositories](workflow/repositories.md)
 
 ## Deploying code
 
 We use:
 
-* [Netlify](https://www.netlify.com/) for static sites
-* [Heroku](https://heroku.com) for sites with a backend code requirement
+- [Netlify](https://www.netlify.com/) for static sites
+- [Heroku](deploying/heroku.md) for sites with a backend code requirement
 
 Ask a member of the team if you need access to these services.
 
@@ -40,12 +40,12 @@ Ask a member of the team if you need access to these services.
 
 Within the digital team we use the following:
 
-* [tools](tools.md)
-* [methodologies](methodologies.md)
+- [tools](tools.md)
+- [methodologies](methodologies.md)
 
 ## Removing access
 
-When someone leaves the team, [we remove their access to the tools we use](removing_access.md).
+When someone leaves the team, [we remove their access to the tools we use](offboarding/removing_access.md).
 
 ---
 
